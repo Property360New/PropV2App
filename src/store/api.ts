@@ -3,7 +3,7 @@ import type { BaseQueryFn, FetchArgs, FetchBaseQueryError } from "@reduxjs/toolk
 import * as SecureStore from "expo-secure-store";
 
 // Change this to your actual backend URL
-const API_BASE_URL = "http://192.168.1.48:3000/api/v1";
+const API_BASE_URL = "https://prop-v2-backend.vercel.app/api/v1";
 
 export const getApiBaseUrl = () => API_BASE_URL;
 
